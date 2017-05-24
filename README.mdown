@@ -1,0 +1,3 @@
+# dotfiles
+
+This repository contains all my configuration files for some software that I use.
