@@ -10,7 +10,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'pangloss/vim-javascript'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'ervandew/supertab'
-Plugin 'shougo/neocomplete.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'eslint/eslint'
 call vundle#end()
