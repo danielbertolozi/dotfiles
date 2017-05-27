@@ -37,11 +37,6 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='gruvbox'
 let g:airline#extensions#tabline#enabled = 1
 let g:syntastic_javascript_checkers = ['eslint']
-" Stuff for neocomplete
-" Use neocomplete.
-let g:neocomplete#enable_at_startup = 1
-" Use smartcase.
-let g:neocomplete#enable_smart_case = 1
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
 autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
