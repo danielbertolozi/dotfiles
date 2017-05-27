@@ -12,6 +12,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'ervandew/supertab'
 Plugin 'kien/ctrlp.vim'
 Plugin 'eslint/eslint'
+Plugin 'scrooloose/syntastic'
 call vundle#end()
 syntax on
 set number
@@ -35,7 +36,7 @@ map <C-k> ddkP
 let g:airline_powerline_fonts = 1
 let g:airline_theme='gruvbox'
 let g:airline#extensions#tabline#enabled = 1
-
+let g:syntastic_javascript_checkers = ['eslint']
 " Stuff for neocomplete
 " Use neocomplete.
 let g:neocomplete#enable_at_startup = 1
