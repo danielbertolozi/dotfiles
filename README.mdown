@@ -1,3 +1,17 @@
 # dotfiles
 
 This repository contains all my configuration files for some software that I use.
+
+## Instructions
+
+### Vim
+
+* Copy the `.vimrc` file to your home folder
+* Install [Vundle](https://github.com/VundleVim/Vundle.vim) and [Pathogen](https://github.com/tpope/vim-pathogen)
+* Open Vim and run `PluginInstall`
+
+### Zsh
+
+* Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
+* Copy `.zsh-rc` and (optional) `.zsh-themes` to your home folder
+* Edit the path in `.zshrc` so that it matches your username
