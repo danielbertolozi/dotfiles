@@ -34,7 +34,6 @@ map <C-i> gg=G
 map <C-j> ddp
 map <C-k> ddkP
 let g:airline_powerline_fonts = 1
-let g:airline_theme='gruvbox'
 let g:airline#extensions#tabline#enabled = 1
 " let g:syntastic_javascript_checkers = ['eslint']
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
