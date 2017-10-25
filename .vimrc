@@ -17,6 +17,7 @@ Plugin 'eslint/eslint'
 Plugin 'scrooloose/syntastic'
 call vundle#end()
 syntax on
+au BufRead,BufNewFile *.impex set filetype=impex
 set number
 set background=dark
 colorscheme delek 
