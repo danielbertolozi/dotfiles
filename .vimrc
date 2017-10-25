@@ -34,6 +34,9 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-i> gg=G
 map <C-j> ddp
 map <C-k> ddkP
+map <C-S-h> :bprevious<CR>
+map <C-S-l> :bnext<CR>
+map <C-S-j> :bdelete<CR>
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 " let g:syntastic_javascript_checkers = ['eslint']
