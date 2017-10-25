@@ -78,6 +78,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias g='git status'
 alias ga='git add -p -A'
-alias gpush='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
+alias gp='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
 alias code='cd ~/code/'
 alias gl='git log --graph'
