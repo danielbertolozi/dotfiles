@@ -15,6 +15,7 @@ Plugin 'ervandew/supertab'
 Plugin 'kien/ctrlp.vim'
 Plugin 'eslint/eslint'
 Plugin 'scrooloose/syntastic'
+Plugin 'leafgarland/typescript-vim'
 call vundle#end()
 syntax on
 au BufRead,BufNewFile *.impex set filetype=impex
