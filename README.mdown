@@ -16,4 +16,5 @@ This repository contains all my configuration files for some software that I use
 ### Zsh
 
 * Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
+* `brew install zsh-syntax-highlighting`
 * Copy `.zsh-rc` and (optional) `.zsh-themes` to your home folder
