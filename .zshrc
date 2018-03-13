@@ -81,3 +81,4 @@ alias ga='git add -p -A'
 alias gp='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
 alias code='cd ~/code/'
 alias gl='git log --graph'
+source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
