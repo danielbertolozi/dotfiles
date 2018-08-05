@@ -97,5 +97,3 @@ main() {
   printf "${NORMAL}"
   env zsh -l
 }
-
-main
