@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="af-magic"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -79,5 +79,4 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 alias g='git status'
 alias ga='git add -p -A'
 alias gp='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
-alias code='cd ~/code/'
 alias gl='git log --graph'
